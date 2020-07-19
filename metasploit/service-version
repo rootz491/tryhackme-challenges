@@ -1,0 +1,17 @@
+Services
+========
+
+host          port   proto  name               state  info
+----          ----   -----  ----               -----  ----
+10.10.96.235  135    tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  139    tcp    netbios-ssn        open   Microsoft Windows netbios-ssn
+10.10.96.235  445    tcp    microsoft-ds       open   Microsoft Windows 7 - 10 microsoft-ds workgroup: WORKGROUP
+10.10.96.235  3389   tcp    ssl/ms-wbt-server  open   
+10.10.96.235  5357   tcp    http               open   Microsoft HTTPAPI httpd 2.0 SSDP/UPnP
+10.10.96.235  8000   tcp    http               open   Icecast streaming media server
+10.10.96.235  49152  tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  49153  tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  49154  tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  49158  tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  49159  tcp    msrpc              open   Microsoft Windows RPC
+10.10.96.235  49160  tcp    msrpc              open   Microsoft Windows RPC
