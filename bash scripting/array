@@ -1,0 +1,38 @@
+#!/bin/bash
+
+
+# 	declare a array
+
+friends=('Sudi' 'nik' 'aditya' 'sans' 'tarun' 'udit' 'gaurav')
+
+
+
+
+#	print first item of array
+
+echo $friends
+echo ${friends[0]}
+
+
+
+
+#	print all elements of array
+
+echo "All friends are ${friends[@]}"
+
+
+
+
+#	remove element from array
+
+unset friends[0]
+
+echo "All friends are ${friends[@]}"
+
+
+
+#	add new element at removed position in array
+
+friends[0]="sudi"
+
+echo "All friends are ${friends[@]}"

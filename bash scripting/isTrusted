@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+
+if [ $# -eq 1 ]
+
+then
+
+	if [ $1 -eq 1337 ]
+	
+	then
+	
+		echo "my man 🔥"
+	
+	else
+
+		echo "fuck u Tra1tor 🖕"
+
+	fi
+
+else
+
+	echo "Go away!"
+
+fi
