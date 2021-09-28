@@ -1,0 +1,26 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.131.193
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /Users/rootz/Documents/tools/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2021/09/28 19:03:44 Starting gobuster in directory enumeration mode
+===============================================================
+/.hta                 (Status: 403) [Size: 278]
+/.htaccess            (Status: 403) [Size: 278]
+/.htpasswd            (Status: 403) [Size: 278]
+/css                  (Status: 301) [Size: 312] [--> http://10.10.131.193/css/]
+/fonts                (Status: 301) [Size: 314] [--> http://10.10.131.193/fonts/]
+/img                  (Status: 301) [Size: 312] [--> http://10.10.131.193/img/]  
+/index.php            (Status: 200) [Size: 5829]                                 
+/js                   (Status: 301) [Size: 311] [--> http://10.10.131.193/js/]   
+/server-status        (Status: 403) [Size: 278]                                  
+===============================================================
+2021/09/28 19:05:47 Finished
+===============================================================
